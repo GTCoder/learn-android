@@ -9,3 +9,10 @@ http://h30499.www3.hp.com/t5/The-Future-of-Testing-Blog/Emulators-vs-Real-Device
 Mobile testing - emulators or real devices
 http://www.cognifide.com/blogs/mobile/mobile-testing-emulators-or-real-devices/
 
+
+Android command:
+
+adb reboot - restart the device
+
+
+
