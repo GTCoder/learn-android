@@ -42,6 +42,16 @@ sys
 system
 ```
 
+* cat
+** cat filename: display the content of the file to console
+```
+shell@android:/data/local/tmp # echo "123" > test.txt
+echo "123" > test.txt
+shell@android:/data/local/tmp # cat test.txt
+cat test.txt
+123
+```
+
 
 Misc
 * #: rooted, $: un-rooted
