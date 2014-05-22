@@ -42,14 +42,24 @@ sys
 system
 ```
 
-* cat
-** cat filename: display the content of the file to console
++ cat
+    - cat filename: display the content of the file to console
 ```
 shell@android:/data/local/tmp # echo "123" > test.txt
 echo "123" > test.txt
 shell@android:/data/local/tmp # cat test.txt
 cat test.txt
 123
+```
+
+- dumpsys: dumps interesting information about the status of system services.
+See: http://source.android.com/devices/tech/input/dumpsys.html
+    - dumpsys activities: dumps activities of the system
+    - To grep the current focus:
+```
+shell@android:/data/local/tmp # dumpsys activity|grep Focus
+dumpsys activity|grep Focus
+  mFocusedActivity: ActivityRecord{41ea6428 com.android.settings/.Settings}
 ```
 
 
