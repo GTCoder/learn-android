@@ -62,6 +62,8 @@ dumpsys activity|grep Focus
   mFocusedActivity: ActivityRecord{41ea6428 com.android.settings/.Settings}
 ```
 
++ ls
+    - ls -lR: list recursively with details 
 
 Misc
 * #: rooted, $: un-rooted
