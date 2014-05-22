@@ -64,6 +64,23 @@ dumpsys activity|grep Focus
 
 + ls
     - ls -lR: list recursively with details 
+```
+shell@android:/data/misc/wifi # ls -lR
+ls -lR
+.:
+-rw-rw---- system   wifi           21 2014-05-22 20:08 entropy.bin
+-rw------- system   system         58 2014-05-16 21:17 ipconfig.txt
+-rw-rw---- system   wifi          307 2014-05-15 21:02 p2p_supplicant.conf
+drwxrwx--- wifi     wifi              2014-05-22 20:08 sockets
+-rw------- system   system         42 2014-05-15 21:01 softap.conf
+-rw-rw---- system   wifi          515 2014-05-22 17:22 wpa_supplicant.conf
+./sockets:
+srwxrwx--- wifi     wifi              2014-05-22 20:08 p2p0
+srw-rw---- system   wifi              2014-05-22 20:08 wpa_ctrl_321-1
+srw-rw---- system   wifi              2014-05-22 20:08 wpa_ctrl_321-2
+srw-rw---- system   wifi              2014-05-22 20:08 wpa_ctrl_321-4
+srw-rw---- system   wifi              2014-05-22 20:08 wpa_ctrl_321-5
+```
 
 Misc
 * #: rooted, $: un-rooted
