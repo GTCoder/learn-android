@@ -12,7 +12,7 @@ http://www.cognifide.com/blogs/mobile/mobile-testing-emulators-or-real-devices/
 
 ADB command:
 
-adb reboot - restart the device
+* adb reboot - restart the device
 
 
 
@@ -43,6 +43,7 @@ system
 ```
 
 
-
+Misc
+* #: rooted, $: un-rooted
 
 
